@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <title>University website</title>
+</head>
+<body>
+    <section class = "header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href=""> HOME</a></li>
+                        <li><a href=""> ABOUT</a></li>
+                        <li><a href=""> COURSE</a></li>
+                        <li><a href=""> BLOG</a></li>
+                        <li><a href=""> CONTACT</a></li>
+                    </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+     <div class="text-box">
+        <h1>worlds bigest University</h1>
+        <p>This is the most wonderful tutorial in the University</p>
+        <a href="" class = "hero-btn"> Visist us to know more</a>
+     </div>  
+    </section>
+
+<!-- course -->
+<section class="course">
+    <h1>courses be offered</h1>
+    <p>These are the courses thar are being offered</p>
+
+<div class="row">
+   <div class="course-col">
+     <h3>Intermediate</h3>
+     <p>These are the most ineractive course section that we have ever had in the university</p>
+     <p>They matk the netry grade to the top cousres offered in the university</p>
+   </div>
+
+   <div class="course-col">
+    <h3>Degree</h3>
+    <p>These are the most ineractive course section that we have ever had in the university</p>
+    <p>They matk the netry grade to the top cousres offered in the university</p>
+  </div>
+
+  <div class="course-col">
+    <h3>Post Graduation.</h3>
+    <p>These are the most ineractive course section that we have ever had in the university</p>
+    <p>They matk the netry grade to the top cousres offered in the university</p>
+  </div>
+</div>
+
+</section>
+<!--campus-->
+<section class="campus">
+  <h1>Our clobal campus</h1>
+  <p>We are avilable in online platforms and media you can sign in to Our university fo more courses.</p>
+
+  <div class="row">
+    <div class="campus-col">
+        <img src="images/london.png">
+        <div class="layer">
+            <h3>NAIROBI</h3>
+        </div>
+    </div>
+
+    <div class="campus-col">
+        <img src="images/newyork.png">
+        <div class="layer">
+            <h3>KISUMU</h3>
+        </div>
+    </div>
+
+    <div class="campus-col">
+        <img src="images/washington.png">
+        <div class="layer">
+            <h3>MOMBASA</h3>
+        </div>
+    </div>
+
+  </div>
+</section>
+
+<!--Facilities-->
+
+<section class="facilities">
+    <h1>Our facilities</h1>
+     <p>We have a variety of the facilities thats is ranging from curriculum activities and none curriculum acivities</p>
+    <div class="row">
+     <div class="facilities-col">
+       <img src="images/library.png">
+       <h3>Best Educational facilities</h3>
+       <p>We provide wold class in all our branches</p>
+     </div>
+
+     <div class="facilities-col">
+        <img src="images/basketball.png">
+        <h3>Best Sporting facilities</h3>
+        <p>We provide wold class in all our branches</p>
+     </div>
+
+     <div class="facilities-col">
+        <img src="images/cafeteria.png">
+        <h3>Best Hotel and Management facilities</h3>
+        <p>We provide wold class in all our branches</p>
+     </div>
+    </div>
+</section>
+
+<!--Testimonials-->
+ <section class="Testimonials">
+    <h1>What Our student says</h1>
+    <p>This is the best school ever because of the flexibility in learning facilities</p>
+
+    <div class="row">
+       <div class="Testimonial-col">
+        <img src="images/user1.jpg">
+        <div>
+            <p>I love this place, it is amazing to be here and learn</p>
+            <h3>Cynthia Johns</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star -o"></i>
+        </div>
+
+        
+       </div>
+
+       <div class="Testimonial-col">
+        <img src="images/user2.jpg">
+        <div>
+            <p>The flexibility of the classes make me moving</p>
+            <h3>Fredrick Makeli</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+        </div>
+       </div>
+    </div>
+ </section>
+
+ <!--Call to action-->
+
+ <section class="cta">
+    <h1> Enroll for our various online classes</h1>
+    <a href="hero-btn"> contact us</a>
+
+ </section>
+
+<!--Footer-->
+
+
+<section class="footer">
+ <h4>About us</h4>
+ <p>We are located in Nairobi  </p>
+ <div class="icon">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+ </div>
+  <p> <img src="images/cyp.png"> Made with Easy learnings </p>
+</section>
+
+
+ <!--JavaScrpit to toggle Menu-->
+    <script>
+        var navLinks =document.getElementById(navLinks);
+        function showMenu(){
+           navLinks.style.right = "0";
+        }
+        function hideMenu(){
+           navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
